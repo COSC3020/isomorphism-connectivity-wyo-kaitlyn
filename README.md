@@ -10,3 +10,13 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+In the instance that graph $A$ has only two nodes, and those nodes are not connected 
+by an edge, then that graph is not completely connected.
+
+If $B$ is a graph with the same number of nodes, and with no edges connecting them, then
+a bijective function that maps $A$ to $B$ would be valid, since they have the same number of 
+nodes and there are no adjacenct edges.
+
+This proves that graphs do *not* have to be completely connected to be isomorphic, since
+this instance exists.  
