@@ -15,8 +15,10 @@ In the instance that graph $A$ has only two nodes, and those nodes are not conne
 by an edge, then that graph is not completely connected.
 
 If $B$ is a graph with the same number of nodes, and with no edges connecting them, then
-a bijective function that maps $A$ to $B$ would be valid, since they have the same number of 
-nodes and there are no adjacenct edges.
+a bijective function that maps $A$ to $B$ would be valid. A bijective function is one-to-one 
+and onto, meaningeach element in $A$ could be mapped to exactly one in $B$, and vice versa.  
+The bijective mapping works because the graphs have the same amount of nodes, and there are 
+no adjacenct edges.  
 
 This proves that graphs do *not* have to be completely connected to be isomorphic, since
 this instance exists.  
