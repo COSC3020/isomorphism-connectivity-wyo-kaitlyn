@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12528010&assignment_repo_type=AssignmentRepo)
 # Isomorphism
 
 Prove that if two graphs $A$ and $B$ are isomorphic they do *not* have to
@@ -9,3 +10,15 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+In the instance that graph $A$ has only two nodes, and those nodes are not connected 
+by an edge, then that graph is not completely connected.
+
+If $B$ is a graph with the same number of nodes, and with no edges connecting them, then
+a bijective function that maps each node in $A$ to a unique node in $B$ would be valid. A bijective 
+function is one-to-one and onto, meaningeach element in $A$ could be mapped to exactly one in $B$, and vice versa.  
+The bijective mapping works because the graphs have the same amount of nodes, and there are 
+no adjacenct edges.  
+
+This proves that graphs do *not* have to be completely connected to be isomorphic, since
+this instance exists.  
